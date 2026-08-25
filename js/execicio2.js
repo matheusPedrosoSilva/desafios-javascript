@@ -17,8 +17,8 @@ function main(){
     console.log(`Nome: ${typeof(nome)} \nIdade: ${typeof(idade)} \nCidade: ${typeof(cidade)} \nMatricula: ${typeof(matricula)} \nNota: ${typeof(nota)}`)
 }
 
-// Const
+// const
 // Constante são valores declarados que, durante uma sessão, não terá seu valor alterado de forma alguma
 
 // Let
-// São variáveis que PODEM ter seu valor alterados
+// São valores armazenados que PODEM ter seu valor alterados durante a sessão
