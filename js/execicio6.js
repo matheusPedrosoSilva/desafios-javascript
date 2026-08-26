@@ -1,6 +1,6 @@
 const btn6 = document.getElementById("desafio6");
 btn6.addEventListener("click", () => {
-    main();
+    mediaNota();
 });
 
 function main(){

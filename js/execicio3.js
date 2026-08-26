@@ -1,9 +1,9 @@
 const btn3 = document.getElementById("desafio3");
 btn3.addEventListener("click", () => {
-    main();
+    concatenar();
 });
 
-function main(){
+function concatenar(){
     const nome = prompt("Digite seu nome:")
     let idade = prompt("Digite sua idade:")
     const cidade = prompt('Digite sua cidade:')

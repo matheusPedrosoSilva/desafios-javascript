@@ -1,9 +1,9 @@
 const btn5 = document.getElementById("desafio5");
 btn5.addEventListener("click", () => {
-    main();
+    idadeVotar();
 });
 
-function main(){
+function idadeVotar(){
     let i = 'n'
     while(i != 's'){
         let idade = parseInt(prompt('Informe a idade:'))

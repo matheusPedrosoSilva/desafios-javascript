@@ -1,9 +1,9 @@
 const btn9 = document.getElementById("desafio9");
 btn9.addEventListener("click", () => {
-    main();
+    arrayNumeros();
 });
 
-function main(){
+function arrayNumeros(){
     let valor = 1
     let numeros = []
     let soma = 0

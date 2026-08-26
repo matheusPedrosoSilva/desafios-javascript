@@ -1,11 +1,11 @@
 const btn8 = document.getElementById("desafio8");
 btn8.addEventListener("click", () => {
-    main();
+    tabuada();
 });
 
-function main(){
+function tabuada(){
     let valor = parseFloat(prompt('Informe um valor:'))
-    if(isNaN(valor+1)){
+    if(isNaN(valor+1) || !Number.isInteger(valor)){
          console.log('Valor digitado inválido, tente novamente')
     }
     else{

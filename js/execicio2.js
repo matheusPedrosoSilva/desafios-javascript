@@ -1,9 +1,9 @@
 const btn2 = document.getElementById("desafio2");
 btn2.addEventListener("click", () => {
-    main();
+    tipoVariavel();
 });
 
-function main(){
+function tipoVariavel(){
     const nome = prompt("Digite seu nome:")
     let idade = prompt("Digite sua idade:")
     const cidade = prompt('Digite sua cidade:')

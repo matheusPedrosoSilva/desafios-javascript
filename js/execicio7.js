@@ -1,9 +1,9 @@
 const btn7 = document.getElementById("desafio7");
 btn7.addEventListener("click", () => {
-    main();
+    loginSimples();
 });
 
-function main(){
+function loginSimples(){
     let usuario = prompt('Infome o usuário:')
     let senha = prompt('Informe a senha:')
     if (usuario==='admin'&&senha==='1234'){
