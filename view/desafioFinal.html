@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <title>Desafio Final</title>
+    </head>
+    <body>
+        <main class="container">
+            <!-- <form id="form" action=""> -->
+                <div class="row align-items-center">
+                    <div class="col">
+                        <label for="nomeAluno" class="form-label">Nome</label>
+                        <input id="nomeAluno" class="form-control" type="text">
+                    </div>
+                    <div class="col">
+                        <label id="curso" class="form-label">Curso</label>                        
+                        <select name="curso" class="form-select" aria-label="Selecione um curso">
+                            <option selected>Selecione</option>
+                            <option value="1">Gestão Comercial</option>
+                            <option value="2">Gestão de Empreendimentos Gastronômicos</option>
+                            <option value="3">Gestão de Turismo</option>
+                            <option value="4">Sistema para Internet</option>
+                            <option value="5">Outro</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label id="nota1" class="form-label">Nota</label>
+                        <input name="nota1" class="form-control" type="number" min="0.00" max="10.00">
+                    </div>
+                    <div class="col">
+                        <label id="nota" class="form-label">Nota</label>
+                        <input name="nota2"class="form-control" type="number" min="0.00" max="10.00">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <button id="frmBtn" class="mt-2 btn btn-primary" type="submit">Enviar</button>
+                    </div>
+                </div>
+            <!-- </form> -->
+            <aside>
+                <table class="table table-hover">
+                    <thead>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Curso</th>
+                        <th scope="col">Total</th>
+                        <th scope="col">Média</th>
+                        <th scope="col">Situação</th>
+                    </thead>
+                    <tbody class="table-group-divider">
+                    </tbody>
+                </table>
+            </aside>
+        </main>
+        <section class="container">
+            <div class="row">
+                <button onclick="window.location.href='../index.html'" class="mt-2 btn btn-danger" type="button">Sair</button>
+            </div>
+        </section>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="../js/desafio_final.js"></script>
+</html>

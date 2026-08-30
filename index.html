@@ -3,62 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <title>Desafios em Javascript</title>
 </head>
-<body>
-    <main>
-        <h1>Desafios em JavaScript</h1>
-        <!-- mudar depois -->
-        <h3>Por essa tela você pode acessar todos os desafios propostos</h3>
-        <form action="">
-            <button id="desafio1" type="button">
-                Desafio 1 -
+<body class="bg-primary bg-gradient" >
+    <main class="container d-flex flex-column bg-light justify-content-center bg-gradient text-center">
+        <div class="row">
+            <i class="bi bi-javascript mt-3"></i>
+            <h1 class="h1 col mt-1">Desafios em JavaScript</h1>
+        </div>
+        <div class="row">
+            <p class="col lead">Essas página teve como objetivo testar os meus conhecimentos básicos em JavaScript. Aqui você vai encontrar desafios diversos de lógico e estruturas da linguagem.</p>
+        </div>
+        <div class="row">
+            <div class="m-5 col alert alert-primary d-inline-flex justify-content-center align-items-center" role="alert">
+                <i class="bi bi-info-circle me-2"></i>
+                <div>Cada botão tem sua própria funcionalidade. É preciso deixar o console aberto para visualizar alguns resultados.</=>
+            </div>
+        </div>
+        <div class="row">
+            <button class="col m-2 btn btn-dark" id="desafio1" type="button">
+                Desafio 1 - Visualizando dados no console
             </button>
-            <button id="desafio2" type="button">
-                Desafio 2 -
+            <button class="col m-2 btn btn-dark" id="desafio2" type="button">
+                Desafio 2 - Tipos dos dados inseridos
             </button>
-            <button id="desafio3" type="button">
-                Desafio 3 -
+            <button class="col m-2 btn btn-dark" id="desafio3" type="button">
+                Desafio 3 - Concatenação
             </button>
-            <button id="desafio4" type="button">
-                Desafio 4 -
+        </div>
+        <div class="row">
+            <button class="col m-2 btn btn-dark" id="desafio4" type="button">
+                Desafio 4 - Idade + 5
             </button>
-            <button id="desafio5" type="button">
-                Desafio 5 -
+            <button class="col m-2 btn btn-dark" id="desafio5" type="button">
+                Desafio 5 - Posso Votar?
             </button>
-            <button id="desafio6" type="button">
-                Desafio 6 -
+            <button class="col m-2 btn btn-dark" id="desafio6" type="button">
+                Desafio 6 - Calcula Média
             </button>
-            <button id="desafio7" type="button">
-                Desafio 7 -
+        </div>
+        <div class="row">
+            <button class="col m-2 btn btn-dark" id="desafio7" type="button">
+                Desafio 7 - Login Simples
             </button>
-            <button id="desafio8" type="button">
-                Desafio 8 -
+            <button class="col m-2 btn btn-dark" id="desafio8" type="button">
+                Desafio 8 - Tabuada
             </button>
-            <button id="desafio9" type="button">
-                Desafio 9 -
+            <button class="col m-2 btn btn-dark" id="desafio9" type="button">
+                Desafio 9 - Loop com Números
             </button>
-            <button id="desafio10" type="button">
-                Desafio 10 -
+        </div>
+        <div class="row">
+            <button class="col m-2 btn btn-dark" id="desafio10" type="button">
+                Desafio 10 - Login com Tentativa
             </button>
-            <button id="desafio11" type="button">
-                Desafio 11 -
+            <button class="col m-2 btn btn-dark" id="desafio11" type="button">
+                Desafio 11 - Funções
             </button>
-            <button id="desafio12" type="button">
-                Desafio 12 -
-            </button>
-            <button id="desafioFinal" type="button">
-                Desafio Final -
-            </button>
-        </form>        
+            <button class="col m-2 btn btn-dark" onclick="window.location.href='./view/desafioFinal.html'" id="desafioFinal" >
+                Desafio Final
+            </button>               
+        </div>
     </main> 
-    <!-- colocar info como linkedin git etc -->
-    <footer>
-
+    <!-- col m-2ocar info como linkedin git etc -->
+    <footer class="bg-dark d-flex fw-bold text-light">
+        <p>@Matheus Pedroso</p>
     </footer>
 </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="./js/execicio1.js"></script>
     <script src="./js/execicio2.js"></script>
     <script src="./js/execicio3.js"></script>
@@ -70,5 +84,4 @@
     <script src="./js/execicio9.js"></script>
     <script src="./js/execicio10.js"></script>
     <script src="./js/execicio11.js"></script>
-    <script src="./js/desafio_final.js"></script>
 </html>

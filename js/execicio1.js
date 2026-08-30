@@ -1,5 +1,5 @@
 const btn1 = document.getElementById("desafio1");
-btn.addEventListener("click", () => {
+btn1.addEventListener("click", () => {
     printConsole();
 });
 
