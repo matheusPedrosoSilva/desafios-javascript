@@ -8,32 +8,32 @@
     </head>
     <body>
         <main class="container">
-            <!-- <form id="form" action=""> -->
+            <div>
                 <div class="row align-items-center">
                     <div class="col">
                         <label for="nomeAluno" class="form-label">Nome</label>
                         <input id="nomeAluno" class="form-control" type="text">
                     </div>
                     <div class="col">
-                        <label id="curso" class="form-label">Curso</label>                        
-                        <select name="curso" class="form-select" aria-label="Selecione um curso">
+                        <label for="curso" class="form-label">Curso</label>                        
+                        <select id="curso" class="form-select" aria-label="Selecione um curso">
                             <option selected>Selecione</option>
-                            <option value="1">Gestão Comercial</option>
-                            <option value="2">Gestão de Empreendimentos Gastronômicos</option>
-                            <option value="3">Gestão de Turismo</option>
-                            <option value="4">Sistema para Internet</option>
-                            <option value="5">Outro</option>
+                            <option value="Gestão Comercial">Gestão Comercial</option>
+                            <option value="Gestão de Empreendimentos Gastronômicos">Gestão de Empreendimentos Gastronômicos</option>
+                            <option value="Gestão de Turismo">Gestão de Turismo</option>
+                            <option value="Sistema para Internet">Sistema para Internet</option>
+                            <option value="Outro">Outro</option>
                         </select>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <label id="nota1" class="form-label">Nota</label>
-                        <input name="nota1" class="form-control" type="number" min="0.00" max="10.00">
+                        <label for="nota1" class="form-label">Nota</label>
+                        <input id="nota1" class="form-control" type="text">
                     </div>
                     <div class="col">
-                        <label id="nota" class="form-label">Nota</label>
-                        <input name="nota2"class="form-control" type="number" min="0.00" max="10.00">
+                        <label for="nota2" class="form-label">Nota</label>
+                        <input id="nota2" class="form-control" type="text">
                     </div>
                 </div>
                 <div class="col">
@@ -41,7 +41,7 @@
                         <button id="frmBtn" class="mt-2 btn btn-primary" type="submit">Enviar</button>
                     </div>
                 </div>
-            <!-- </form> -->
+            </div>
             <aside>
                 <table class="table table-hover">
                     <thead>
@@ -51,14 +51,14 @@
                         <th scope="col">Média</th>
                         <th scope="col">Situação</th>
                     </thead>
-                    <tbody class="table-group-divider">
+                    <tbody id="alunosData" class="table-group-divider">
                     </tbody>
                 </table>
             </aside>
         </main>
         <section class="container">
             <div class="row">
-                <button onclick="window.location.href='../index.html'" class="mt-2 btn btn-danger" type="button">Sair</button>
+                <button id="sairBtn" class="mt-2 btn btn-danger" type="button">Sair</button>
             </div>
         </section>
     </body>
